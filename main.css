@@ -233,10 +233,12 @@ body {
   margin-left: 110px;
   max-width: 350px;
   color:white;
-  
-  
 }
 
+.img_left {
+  margin-left:-175px;
+   
+}
 
 .plain_font {
   text-align: center;
