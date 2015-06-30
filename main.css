@@ -18,8 +18,108 @@ a:visited {
 h1 {
   text-align: left;
   max-width: 350px;
+  padding-right: 35px;
   margin: 20px;
   color: #384B64;
+  font-size: 30px;
+  line-height: 40px;
+  font-family:'Slabo 27px', serif;
+  
+}
+.position {
+  
+  position: fixed;
+}
+
+h2 {
+  text-align: center;
+  max-width: 350px;
+  padding-right: 35px;
+  margin: 20px;
+  color: #384B64;
+  font-size: 30px;
+  line-height: 40px;
+  font-family:'Slabo 27px', serif;
+  
+}
+
+h3 {
+  text-align: center;
+  font-family:'Slabo 27px', serif;
+  color: #69A32D;
+  max-width: 350px;
+   font-size: 20px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  
+  
+}
+
+h4 {
+  text-align: center;
+  max-width: 350px;
+  padding-right: 35px;
+  margin: 20px;
+  color: #7C6D57;
+  font-size: 16px;
+  line-height: 12px;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+h5 {
+  text-align: center;
+  max-width: 300px;
+  padding-right: 35px;
+  margin: 20px;
+  color: #EEC531;
+  font-size: 42px;
+  line-height: 25px;
+  font-family:'Slabo 27px', serif;
+  
+}
+
+h6 {
+  text-align: center;
+  max-width: 300px;
+   color: white;
+  font-size: 17px;
+  line-height: 18px;
+  font-family:'Slabo 27px', serif;
+  
+}
+.time {
+  text-align: center;
+  max-width: 300px;
+   color: white;
+  font-size: 45px;
+  line-height: 18px;
+  font-family:'Slabo 27px', serif;
+  position: relative;
+  top: 5px;
+  
+}
+.font {
+  position: relative;
+  top: 18px;
+  text-align: center;
+  max-width: 300px;
+   color: white;
+  font-size: 13px;
+  line-height: 18px;
+  font-family:'Slabo 27px', serif;
+  
+}
+
+h7 {
+  text-align: center;
+  max-width: 300px;
+  
+ 
+  color: white;
+  font-size: 45px;
+  line-height: 18px;
   font-family:'Slabo 27px', serif;
   
 }
@@ -29,6 +129,16 @@ p {
   margin: 20px;
   padding-right: 30px;
   color: #575B5B;
+  font-family:'Slabo 27px', serif;
+  line-height: 30px;
+}
+
+.line {
+  text-align: center;
+  max-width: 350px;
+  margin: 20px;
+  padding-right: 30px;
+  color: #E2E0DE;
   font-family:'Slabo 27px', serif;
   line-height: 30px;
 }
@@ -55,13 +165,42 @@ body {
 }
 
 .img_center {
+  
   margin-right: auto;
   margin-left: auto;
+  
+}
+
+.max_width {
+  width: 200px;
 }
 
 .nudge_down {
   position: relative;
   top:-7px;
+}
+
+.nudge_up {
+  position: relative;
+  bottom:-1000px;
+}
+
+.nudge_left {
+  position: relative;
+  left:90px;
+}
+
+.nudge_right {
+  position: relative;
+  left:22px;
+}
+.img_padding {
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+  margin-left: 10px;
+  max-width: 350px;
+  
 }
 
 footer {
@@ -73,8 +212,23 @@ footer {
   bottom: 0;
   width: 370px;
   height: 80px;
-
   font-size: 0px;
   padding: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display:inline-block;
+  border: 3px solid #CC5828;
+  margin-right:20px;
+  text-align:center;
+  font-size: 30px;
+  padding: 13px;
+  max-width: 300px;
+  margin-left: 110px;
+  max-width: 350px;
+  
   
 }
