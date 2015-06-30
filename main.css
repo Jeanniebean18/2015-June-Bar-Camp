@@ -5,16 +5,6 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-/* visited link */
-
-a:visited {
-  text-decoration: none;
-  color: white;
-}
 h1 {
   text-align: left;
   max-width: 350px;
@@ -24,23 +14,17 @@ h1 {
   font-size: 30px;
   line-height: 40px;
   font-family:'Slabo 27px', serif;
-  
-}
-.position {
-  
-  position: fixed;
 }
 
 h2 {
   text-align: center;
   max-width: 350px;
-  padding-right: 35px;
-  margin: 20px;
+  padding-right: 44px;
+  margin: 15px;
   color: #384B64;
   font-size: 30px;
   line-height: 40px;
   font-family:'Slabo 27px', serif;
-  
 }
 
 h3 {
@@ -51,8 +35,6 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
-  
-  
 }
 
 h4 {
@@ -65,7 +47,6 @@ h4 {
   line-height: 12px;
   font-weight: normal;
   font-family: 'Lato', sans-serif;
-  
 }
 
 h5 {
@@ -77,7 +58,6 @@ h5 {
   font-size: 42px;
   line-height: 25px;
   font-family:'Slabo 27px', serif;
-  
 }
 
 h6 {
@@ -87,16 +67,18 @@ h6 {
   font-size: 17px;
   line-height: 18px;
   font-family:'Slabo 27px', serif;
-  
 }
 
 #wood {
   background-image: url("assets/wood-bg.png");
   background-repeat: repeat-y;
-  
 }
 
-
+.dashes {
+  border-top: dashed #E1DAD5 3px;
+  width: 300px;
+  margin-left: 15px;
+}
 
 .time {
   text-align: center;
@@ -109,8 +91,6 @@ h6 {
   top: 8px;
 }
 
-
-
 .font {
   position: relative;
   top: 20px;
@@ -121,20 +101,17 @@ h6 {
   font-size: 13px;
   line-height: 18px;
   font-family:'Slabo 27px', serif;
-  
 }
 
 h7 {
   text-align: center;
   max-width: 300px;
-  
- 
   color: white;
   font-size: 45px;
   line-height: 18px;
   font-family:'Slabo 27px', serif;
-  
 }
+
 p {
   text-align: left;
   max-width: 350px;
@@ -146,29 +123,23 @@ p {
 }
 
 .line {
-  text-align: center;
-  max-width: 350px;
-  margin: 20px;
-  padding-right: 30px;
-  color: #E2E0DE;
-  font-family:'Slabo 27px', serif;
-  line-height: 30px;
+  border-top: solid #E1DAD5 1px;
+  width: 300px;
+  margin-left: 15px;
 }
-#header {
 
+#header {
   text-align:center;
   font-weight:bold;
   background:#2C4947;
-
   top: 0;
   width: 370px;
   height: 75px;
-
   font-size: 0px;
   padding: 20px;
 }
+
 body {
-  
   margin: 0;
 }
 
@@ -189,7 +160,13 @@ body {
   top:-7px;
 }
 
+.break {
+  height: 50px;
+}
 
+.line_break {
+  height: 20px;
+}
 
 .nudge_left {
   position: relative;
@@ -206,7 +183,6 @@ body {
  
   margin-left: 10px;
   max-width: 350px;
-  
 }
 
 #footer {
@@ -247,8 +223,8 @@ body {
   font-size: 15px;
   line-height: 19px;
   font-family: 'Lato', sans-serif;
-  
 }
+
 .h8 {
   text-align: center;
   max-width: 300px;
@@ -256,6 +232,5 @@ body {
   font-size: 25px;
   line-height: 25px;
   font-family: 'Lato', sans-serif;
-  
 }
 
