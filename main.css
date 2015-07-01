@@ -271,7 +271,7 @@ body {
 }
 
 ul {
-    list-style-image: url("assets/plus-bullet.png");
+  list-style-image: url("assets/plus-bullet.png");
 }
 
 li {
