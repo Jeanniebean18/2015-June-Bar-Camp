@@ -172,6 +172,10 @@ body {
   position: relative;
   left:90px;
 }
+.nudge {
+  position: relative;
+  left:100px;
+}
 
 .nudge_right {
   position: relative;
@@ -233,4 +237,43 @@ body {
   line-height: 25px;
   font-family: 'Lato', sans-serif;
 }
+
+.faq {
+  background:#C9ECF9;
+  width: 370px;
+  height: 600px;
+}
+
+.faq_text {
+  text-align: left;
+  max-width: 350px;
+  margin-left: 20px;
+  color: #774C2E;
+  font-size: 23px;
+  line-height: 40px;
+  font-family:'Slabo 27px', serif;
+}
+
+#register {
+  background-image: url("assets/register.png");
+  width: 370px;
+  height:695px;
+}
+
+.link_block {
+  display:block;
+  position: relative;
+  bottom: -350px;
+  margin: 90px;
+  width: 200px;
+  height:85px;
+  border: 3px solid hidden;
+}
+
+span {
+  vertical-align: middle;
+}
+
+
+
 
