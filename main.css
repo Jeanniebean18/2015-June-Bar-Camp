@@ -270,10 +270,11 @@ body {
   border: 3px solid hidden;
 }
 
-span {
-  vertical-align: middle;
+ul {
+    list-style-image: url("assets/plus-bullet.png");
 }
 
-
-
+li {
+  line-height: 55px;
+}
 
